@@ -31,8 +31,8 @@ function App() {
           <button
             className="no"
             onClick={() => {
-              setImg(sad);
               setYesSize(yesSize + 20);
+              setImg(sad);
               setMessage("Please say yes 😢");
             }}
           >
